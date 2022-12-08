@@ -4,6 +4,9 @@ site_description: Resources for my Home Lab
 site_author: Thomas Kortyka
 copyright: Copyright &copy; 2022 Thomas Kortyka
 
+repo_url: https://github.com/ToxicToast/homelab
+edit_uri: blob/main/docs/
+
 nav:
   - Home: index.md
 
@@ -27,7 +30,27 @@ theme:
   language: en
   font:
     text: Roboto
-    code: Roboto Mono 
+    code: Roboto Mono
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: docs
+  - def_list
+  - pymdownx.tasklist:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
 
 
 extra:
