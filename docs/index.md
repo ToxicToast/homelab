@@ -44,7 +44,16 @@ This project is still in the experimental stage, and I don't use anything critic
         - [ ] Aldi
 - [ ] [Smartmirror](https://mirror.toxictoast.de)
 - [ ] [Twitch Bot](https://twitch.toxictoast.de)
-
+- [ ] [Blog](https://blog.toxictoast.de)
+  - [ ] Tags
+  - [ ] Posts
+  - [ ] Comments
+- [ ] [Wow-Raid](https://raid.toxictoast.de)
+    - [ ] Guilds
+    - [ ] Characters
+    - [ ] Raids
+    - [ ] Mythic+
+    - [ ] Drops
 
 ### Tech stack (for now)
 
