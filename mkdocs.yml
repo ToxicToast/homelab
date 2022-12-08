@@ -9,6 +9,8 @@ edit_uri: blob/main/docs/
 
 nav:
   - Home: index.md
+  - Services:
+      - Azkaban: services/azkaban.md
 
 theme:
   name: 'material'
