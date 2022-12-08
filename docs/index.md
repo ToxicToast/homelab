@@ -29,20 +29,21 @@ This project is still in the experimental stage, and I don't use anything critic
 
 ### Services (Own Coded)
 
-- [ ] Home Inventory System
+- [ ] [Azkaban Gateway](https://api.toxictoast.de)
+- [ ] [Home Inventory System](https://inventory.toxictoast.de)
     - [ ] Categories
     - [ ] Items
         - [ ] Locations (where at home is it stored?)
         - [ ] Companies (from which company does it come from?)
         - [ ] Size (what size does it have?)
         - [ ] Type (what type is it? Bottle, Can etc.)
-    - [ ] Shoppinglist
-    - [ ] Discounts
+    - [ ] [Shoppinglist](https://shoppinglist.toxictoast.de)
+    - [ ] [Discounts](https://discounts.toxictoast.de)
         - [ ] Rewe
         - [ ] Lidl
         - [ ] Aldi
-- [ ] Smartmirror
-- [ ] Twitch Bot
+- [ ] [Smartmirror](https://mirror.toxictoast.de)
+- [ ] [Twitch Bot](https://twitch.toxictoast.de)
 
 
 ### Tech stack (for now)
