@@ -1,0 +1,38 @@
+site_name: Azkaban
+site_url: http://docs.home/
+site_description: Resources for my Home Lab
+site_author: Thomas Kortyka
+copyright: Copyright &copy; 2022 Thomas Kortyka
+
+nav:
+  - Home: index.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: black
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+    - content.tooltips
+    - toc.follow
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono 
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/toxictoast
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/toxictoastsc2
