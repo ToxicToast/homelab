@@ -10,7 +10,7 @@ This project is still in the experimental stage, and I don't use anything critic
 
 ### Features
 
-- [ ] Common applications: Gitea, Paperless, n8n
+- [ ] Common applications: [Github Runner](https://docs.github.com/en/actions/hosting-your-own-runners) (maybe), Paperless, n8n
 - [ ] Automated Kubernetes installation and management
 - [ ] Installing and managing applications using Pulumi
 - [ ] Automatic rolling upgrade for OS and Kubernetes

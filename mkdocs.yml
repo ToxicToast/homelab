@@ -10,7 +10,10 @@ edit_uri: blob/main/docs/
 nav:
   - Home: index.md
   - Services:
-      - Azkaban: services/azkaban.md
+      - Azkaban:
+          - Project: services/azkaban.md
+          - Todo: services/azkaban/todo.md
+          - Changelog: services/azkaban/changelog.md
 
 theme:
   name: 'material'
