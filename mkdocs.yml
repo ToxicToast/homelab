@@ -14,6 +14,17 @@ nav:
           - Project: services/azkaban.md
           - Todo: services/azkaban/todo.md
           - Changelog: services/azkaban/changelog.md
+  - Homelab:
+      - Hardware: homelab/hardware.md
+      - Proxmox:
+          - Project: homelab/proxmox/proxmox.md
+          - Cluster: homelab/proxmox/cluster.md
+      - Terraform:
+          - Project: homelab/terraform/terraform.md
+          - Master: homelab/terraform/deploy-master.md
+          - Worker: homelab/terraform/deploy-worker.md
+      - Ansible:
+          - Project: homelab/ansible/ansible.md
 
 theme:
   name: 'material'

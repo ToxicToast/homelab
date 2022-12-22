@@ -6,11 +6,33 @@ This project is still in the experimental stage, and I don't use anything critic
 
 ### Hardware
 
-> Still deciding on Hardware
+> Still deciding on Hardware  
+> But i want a powerful Server that runs Proxmox or ESXI on it to virtualize at least a Kubernetes Cluster with 2 or 3 Worker Nodes (1 Master - i don't need HA Stuff atm)
+
+> 3x Lenovo M710Q Tiny
+> They go up to 32GB Ram (16 might be enough!)
+> 128GB SSD which is perfect and they only consume less than 50W (probably 5W on Idle)
+> Cheap Tiny Client
 
 ### Features
 
-- [ ] Common applications: [Github Runner](https://docs.github.com/en/actions/hosting-your-own-runners) (maybe), Paperless, n8n
+- [ ] Common applications
+    - [ ] [Github Runner](https://docs.github.com/en/actions/hosting-your-own-runners)
+    - [ ] Paperless
+    - [ ] n8n
+    - [ ] ioBroker
+    - [ ] Node-Red
+    - [ ] Home Assistant
+    - [ ] MQTT
+    - [x] Kafka
+    - [ ] Grafana
+    - [ ] Prometheus
+    - [ ] Elasticsearch
+    - [ ] Kibana
+    - [x] MySQL
+    - [x] Traefik
+    - [x] ArgoCD
+    - [ ] HashiCorp Vault
 - [ ] Automated Kubernetes installation and management
 - [ ] Installing and managing applications using Pulumi
 - [ ] Automatic rolling upgrade for OS and Kubernetes
@@ -77,6 +99,16 @@ This project is still in the experimental stage, and I don't use anything critic
         <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.svg"></td>
         <td><a href="https://argoproj.github.io/cd">ArgoCD</a></td>
         <td>GitOps tool built to deploy applications to Kubernetes</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Traefik.logo.png/1200px-Traefik.logo.png"></td>
+        <td><a href="https://traefik.io/traefik/">Traefik</a></td>
+        <td>The Cloud Native Application Proxy</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/1200px-Apache_kafka.svg.png"></td>
+        <td><a href="https://kafka.apache.org">Apache Kafka</a></td>
+        <td>Open-source distributed event streaming</td>
     </tr>
 
 </table>
