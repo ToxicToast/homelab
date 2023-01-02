@@ -2,7 +2,7 @@
 
 ```yaml
 resource "proxmox_vm_qemu" "k3s-worker" {
-  count = 1
+  count = 3
   name = "k3s-worker-${count.index}"
   desc = "Kubernetes Worker Node"
   vmid = var.proxmox_worker_vmid[count.index]
@@ -11,7 +11,7 @@ resource "proxmox_vm_qemu" "k3s-worker" {
   clone = var.proxmox_clone_name
   cores = 1
   sockets = 2
-  memory = 2048
+  memory = 3072
 
   network {
   bridge = "vmbr0"

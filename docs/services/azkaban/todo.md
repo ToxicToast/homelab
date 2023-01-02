@@ -1,25 +1,28 @@
 # TODO List
 
-- [ ] Kafka Configuration
+
 - [ ] HTTP REST Endpoints with NestJs
-    - [x] Inventory
-        - [x] Category
-        - [x] Item
-        - [x] Location
-        - [x] Company
-        - [x] Type
-        - [x] Size
-    - [ ] Server Send Events (SSE)
-        - [ ] Inventory
-        - [ ] Twitch
-        - [ ] Smart Mirror
+    - [ ] Inventory
+        - [ ] Category
+        - [ ] Item
+        - [ ] Location
+        - [ ] Company
+        - [ ] Type
+        - [ ] Size
+    - [ ] Shopping List
+        - [ ] Stock (Stock that will soon run out, or that already run out)
+        - [ ] Recipes (Get Recipes from REWE and attach them to the last Shopping List -> Only Works with Rewe for now)
     - [ ] Authentication
         - [ ] Register (or no Registration, they could be added via Database directly)
         - [ ] Login (returns JWT Token)
-    - [ ] Smart Mirror 
-        - [ ] Weather
-        - [ ] Forecast
-        - [ ] Events
+        - [ ] Me (returns encoded JWT Token Data)
+    - [ ] Twitch
+        - [ ] Channel (Followers)
+        - [ ] Viewer (How long did a Viewer watched my Channel, what Messages did he send and whats his fav. message)
+        - [ ] Stream (Last Stream, Streamtitle, Stream Game)
+        - [ ] Messages (Messages send in Channel)
+        - [ ] Games (Games streamed)
+
 - [ ] Set Permissions for Endpoints
 - [ ] Fix Docker Image Versioning (Latest should be replaced with the Github Tag)
 - [ ] Create ArgoCD Project for Azkaban (Gateway)
