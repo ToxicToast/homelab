@@ -1,6 +1,6 @@
 # ToxicToast's Homelab
 
-[![tag](https://img.shields.io/github/v/tag/toxictoast/ToxicTV?style=flat-square&logo=semver&logoColor=white)](https://github.com/toxictoast/ToxicTV/tags)
+[![tag](https://img.shields.io/github/v/tag/toxictoast/Azkaban-Homelab?style=flat-square&logo=semver&logoColor=white)](https://github.com/toxictoast/Azkaban-Homelab/tags)
 [![tag](https://img.shields.io/github/v/tag/toxictoast/IaC?style=flat-square&logo=semver&logoColor=white)](https://github.com/toxictoast/IaC/tags)
 [![tag](https://img.shields.io/github/v/tag/toxictoast/homelab?style=flat-square&logo=semver&logoColor=white)](https://github.com/toxictoast/homelab/tags)
 [![document](https://img.shields.io/website?label=document&logo=gitbook&logoColor=white&style=flat-square&url=https%3A%2F%2Fhomelab.toxictoast.de)](https://homelab.toxictoast.de)
