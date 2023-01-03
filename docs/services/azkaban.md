@@ -1,6 +1,6 @@
 # Azkaban
 
-[![tag](https://img.shields.io/github/v/tag/toxictoast/ToxicTV?style=flat-square&logo=semver&logoColor=white)](https://github.com/toxictoast/ToxicTV/tags)
+[![tag](https://img.shields.io/github/v/tag/ToxicToast/Azkaban-Homelab?style=flat-square&logo=semver&logoColor=white)](https://github.com/toxictoast/Azkaban-Homelab/tags)
 
 Service status: **ALPHA**
 

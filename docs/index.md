@@ -32,7 +32,7 @@ This project is still in the experimental stage, and I don't use anything critic
     - [x] Prometheus
     - [ ] Elasticsearch
     - [ ] Kibana
-    - [ ] MySQL
+    - [x] MySQL / MariaDB
     - [x] [Traefik](https://traefik.thoraxia.de)
     - [x] [ArgoCD](https://argocd.thoraxia.de)
     - [ ] HashiCorp Vault
@@ -41,7 +41,7 @@ This project is still in the experimental stage, and I don't use anything critic
     - [ ] Kutt
     - [ ] Vikunja
     - [ ] Tekton
-    - [x] [Uptime Kuma](https://kuma.thoraxia.de)
+    - [x] Uptime Kuma
 - [x] Automated Kubernetes installation
 - [ ] Installing and managing applications using GitOps
 - [ ] Automatic rolling upgrade for OS and Kubernetes
@@ -63,20 +63,28 @@ This project is still in the experimental stage, and I don't use anything critic
 ### Services (Own Coded)
 
 - [ ] [Azkaban Gateway](https://api.thoraxia.de)
+- [ ] [Authentication](https://auth.thoraxia.de)
 - [ ] [Home Inventory System](https://inventory.thoraxia.de)
-    - [ ] Categories
-    - [ ] Items
-        - [ ] Locations (where at home is it stored?)
-        - [ ] Companies (from which company does it come from?)
-        - [ ] Size (what size does it have?)
-        - [ ] Type (what type is it? Bottle, Can etc.)
+    - [ ] [Categories](https://inventory.thoraxia.de/category)
+    - [ ] [Items](https://inventory.thoraxia.de/item)
+        - [ ] [Locations](https://inventory.thoraxia.de/item/location/{locationId}) (where at home is it stored?)
+        - [ ] [Companies](https://inventory.thoraxia.de/item/company/{companyId}) (from which company does it come from?)
+        - [ ] [Sizes](https://inventory.thoraxia.de/item/size/{sizeId}) (what size does it have?)
+        - [ ] [Types](https://inventory.thoraxia.de/item/type/{typeId}) (what type is it? Bottle, Can etc.)
+    - [ ] [Location](https://inventory.thoraxia.de/location)
+    - [ ] [Company](https://inventory.thoraxia.de/company)
+    - [ ] [Size](https://inventory.thoraxia.de/size)
+    - [ ] [Type](https://inventory.thoraxia.de/type)
     - [ ] [Shoppinglist](https://shoppinglist.thoraxia.de)
     - [ ] [Discounts](https://discounts.thoraxia.de)
         - [ ] Rewe
         - [ ] Lidl
         - [ ] Aldi
 - [ ] [Smartmirror](https://mirror.thoraxia.de)
-- [ ] [Twitch Bot](https://twitch.thoraxia.de)
+- [ ] Twitch
+    - [ ] [Bot](https://twitchbot.thoraxia.de)
+    - [ ] [Events](https://twitchevents.thoraxia.de)
+    - [ ] Commands
 - [ ] [Blog](https://blog.thoraxia.de)
     - [ ] Tags
     - [ ] Posts
@@ -112,14 +120,14 @@ This project is still in the experimental stage, and I don't use anything critic
         <td>GitOps tool built to deploy applications to Kubernetes</td>
     </tr>
     <tr>
+        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/metal3/icon/color/metal3-icon-color.svg"></td>
+        <td><a href="https://metal3.io">Metal3</a></td>
+        <td>Bare metal host provisioning for Kubernetes</td>
+    </tr>
+    <tr>
         <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Traefik.logo.png/1200px-Traefik.logo.png"></td>
         <td><a href="https://traefik.io/traefik/">Traefik</a></td>
         <td>The Cloud Native Application Proxy</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/1200px-Apache_kafka.svg.png"></td>
-        <td><a href="https://kafka.apache.org">Apache Kafka</a></td>
-        <td>Open-source distributed event streaming</td>
     </tr>
 
 </table>

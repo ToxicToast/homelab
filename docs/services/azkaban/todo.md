@@ -26,4 +26,4 @@
 - [ ] Set Permissions for Endpoints
 - [ ] Fix Docker Image Versioning (Latest should be replaced with the Github Tag)
 - [ ] Create ArgoCD Project for Azkaban (Gateway)
-- [ ] Create Pulumi Projekt
+- [ ] Create Pulumi Project
