@@ -15,7 +15,13 @@ This project is still in the experimental stage, and I don't use anything critic
 > Cheap Tiny Client
 > 
 > Will use one for [OPNSense](https://opnsense.org)
- 
+
+### Self-Hosted
+- [ ] DNS (still deciding)
+- [ ] VPN (Wireguard)
+- [ ] Monitoring (Prometheus)
+- [ ] Firewall (OPNSense)
+
 
 ### Features
 
@@ -29,21 +35,20 @@ This project is still in the experimental stage, and I don't use anything critic
     - [ ] MQTT
     - [ ] Kafka
     - [ ] Grafana
-    - [x] Prometheus
+    - [ ] Prometheus
     - [ ] Elasticsearch
     - [ ] Kibana
-    - [x] MySQL / MariaDB
+    - [ ] MySQL / MariaDB
     - [x] [Traefik](https://traefik.thoraxia.de)
-    - [x] [ArgoCD](https://argocd.thoraxia.de)
+    - [x] FluxCD
     - [ ] HashiCorp Vault
     - [ ] Memos or HedgeDoc or Documize or Docusaurus (still deciding)
     - [ ] Shiori
     - [ ] Kutt
     - [ ] Vikunja
-    - [ ] Tekton
-    - [x] Uptime Kuma
+    - [ ] Uptime Kuma
 - [x] Automated Kubernetes installation
-- [ ] Installing and managing applications using GitOps
+- [x] Installing and managing applications using GitOps
 - [ ] Automatic rolling upgrade for OS and Kubernetes
 - [ ] Automatically update apps
 - [ ] Modular architecture, easy to add or remove features/components
@@ -52,8 +57,7 @@ This project is still in the experimental stage, and I don't use anything critic
 - [ ] VPN without port forwarding
 - [ ] Expose services to the internet securely with [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/)
 - [ ] CI/CD platform
-    - [x] ArgoCD
-    - [ ] Tekton
+    - [x] FluxCD 
 - [ ] Private container registry
 - [ ] Distributed storage
 - [ ] Support multiple environments (dev, prod)
